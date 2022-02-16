@@ -37,15 +37,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Midterm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-PT-gAM">
-                                <rect key="frame" x="40" y="127" width="60.5" height="28"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-gU-Vik">
-                                <rect key="frame" x="62" y="189" width="34" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Final" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-gU-Vik">
+                                <rect key="frame" x="62" y="189" width="60" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -60,8 +54,14 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBo-5m-tUB">
-                                <rect key="frame" x="55" y="336" width="304" height="25"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <rect key="frame" x="55" y="336" width="304" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Midterm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-PT-gAM">
+                                <rect key="frame" x="40" y="134" width="82" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -69,26 +69,26 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mAe-PT-gAM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="83" id="1wr-Xo-R80"/>
+                            <constraint firstItem="7Mm-4J-AFr" firstAttribute="leading" secondItem="mAe-PT-gAM" secondAttribute="trailing" constant="17.5" id="33G-sL-Gat"/>
                             <constraint firstItem="xvG-gU-Vik" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="5uR-bO-JLb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xvG-gU-Vik" secondAttribute="trailing" constant="318" id="8NB-C9-cSD"/>
+                            <constraint firstItem="ftC-HO-Cha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="233" id="9BN-yh-3J9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GBo-5m-tUB" secondAttribute="trailing" constant="55" id="9ot-0g-94a"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Mm-4J-AFr" secondAttribute="trailing" constant="161" id="Bjn-yL-Zez"/>
                             <constraint firstItem="7Mm-4J-AFr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="Bnk-Y0-xgL"/>
                             <constraint firstItem="Z6c-gS-fxW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="DtS-Qc-FQe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GBo-5m-tUB" secondAttribute="bottom" constant="501" id="Eb5-2F-NIv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8x1-l0-kgB" secondAttribute="trailing" constant="161" id="J1n-fi-BX1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ftC-HO-Cha" secondAttribute="bottom" constant="553" id="Mx7-Py-upQ"/>
+                            <constraint firstItem="gAW-vP-UUO" firstAttribute="leading" secondItem="8x1-l0-kgB" secondAttribute="trailing" constant="21" id="II6-VZ-gIG"/>
                             <constraint firstItem="8x1-l0-kgB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="QPn-D1-Vw5"/>
                             <constraint firstItem="xvG-gU-Vik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="S16-e6-x9W"/>
+                            <constraint firstItem="mAe-PT-gAM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="UOU-jP-YpI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ftC-HO-Cha" secondAttribute="trailing" constant="70" id="WdH-88-uP2"/>
+                            <constraint firstItem="8x1-l0-kgB" firstAttribute="leading" secondItem="xvG-gU-Vik" secondAttribute="trailing" constant="17" id="avx-07-kcb"/>
                             <constraint firstItem="gAW-vP-UUO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="cuO-yM-ekY"/>
                             <constraint firstItem="gAW-vP-UUO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="274" id="e2P-Fr-QPU"/>
                             <constraint firstItem="mAe-PT-gAM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gsg-j1-Nre"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gAW-vP-UUO" secondAttribute="trailing" constant="40" id="gtX-HW-5Bt"/>
+                            <constraint firstItem="Z6c-gS-fxW" firstAttribute="leading" secondItem="7Mm-4J-AFr" secondAttribute="trailing" constant="21" id="itU-h0-lyl"/>
                             <constraint firstItem="ftC-HO-Cha" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="kmO-bH-YPR"/>
+                            <constraint firstItem="GBo-5m-tUB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="292" id="nAS-ml-Tcs"/>
                             <constraint firstItem="GBo-5m-tUB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="p1q-84-2UG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mAe-PT-gAM" secondAttribute="trailing" constant="313.5" id="uzw-Zx-C5D"/>
                             <constraint firstItem="7Mm-4J-AFr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139.5" id="vQy-pj-haf"/>
                             <constraint firstItem="8x1-l0-kgB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="wQg-Jv-WQE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z6c-gS-fxW" secondAttribute="trailing" constant="40" id="ySJ-69-4hW"/>
